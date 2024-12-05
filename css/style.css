@@ -1,13 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(./Assets/background.png);
-   
-}   
-button{
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(./Assets/background.png) no-repeat center center/cover;
+    height: 100vh;
+    /* Make the background cover the entire viewport */
+    margin: 0;
+}
+
+.navbar {
+    margin: -26px 0 6rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo {
+    margin-left: 50px;
+}
+button {
     border: none;
     border-radius: 8px;
     height: 40px;
@@ -17,28 +31,29 @@ button{
     font-weight: bold;
     font-size: 14px;
 }
-.navbar{
-    margin: -26px 0 6rem 7rem;
+
+.navbar-items {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
-.container{
+.container {
     padding: 20px;
     text-align: center;
-    color: white ;
+    color: white;
 }
-.logo{
-    margin-left: 50px;
-}
-.button{
+
+
+
+.button {
     margin-right: 60px;
     margin-bottom: 20px;
 }
-h1{
+
+h1 {
     font-size: 3rem;
 }
-p{
+
+p {
     font-size: 1.5rem;
 }
