@@ -30,7 +30,7 @@
 .nav-links {
     list-style: none; /* Remove default list styling */
     display: flex; /* Arrange items horizontally */
-    gap: 20px; /* Add space between items */
+    gap: 15px; /* Add space between items */
   }
 
    /* Navigation link styling */
