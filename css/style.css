@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+ body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url(./Assets/background.png) no-repeat center center/cover;
     height: 100vh;
      /* Make the background cover the entire viewport  */
     margin: 0;
-}
+} 
 
 .navbar-container {
     margin: -26px 0 6rem 7rem;
@@ -59,13 +59,16 @@ body {
 }
 
 .hero-container h1{
-    font-size: 3.5 rem ;
+    font-size: 3.5rem ;
     margin-bottom: 15px;
+    
 }
 
- p{
-    font-size: 2.5 rem;
+#hero-container-subtitle{
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
-
+#hero-container-subtitle-2{
+    font-size: 1.5rem;
+}
 
