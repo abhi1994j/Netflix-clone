@@ -8,52 +8,64 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url(./Assets/background.png) no-repeat center center/cover;
     height: 100vh;
-    /* Make the background cover the entire viewport */
+     /* Make the background cover the entire viewport  */
     margin: 0;
 }
 
-.navbar {
+.navbar-container {
     margin: -26px 0 6rem 7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .navbar-logo {
     margin-left: 50px;
 }
-button {
-    border: none;
-    border-radius: 8px;
-    height: 40px;
-    width: 90px;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-}
 
 .navbar-items {
-    display: flex;
-    justify-content: center;
+    margin-right: 35px;
 }
 
-.container {
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Arrange items horizontally */
+    gap: 20px; /* Add space between items */
+  }
+
+   /* Navigation link styling */
+   .nav-links li button {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 85px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white; /* Link color */
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Smooth hover effect */
+    background-color:  rgb(222, 8, 8);;
+  }
+  
+  /* Hover effect */
+  .nav-links li button:hover {
+    background-color: rgb(244, 67, 54) /* Highlight color on hover */
+  }
+  
+.hero-container {
     padding: 20px;
     text-align: center;
     color: white;
 }
 
+.hero-container h1{
+    font-size: 3.5 rem ;
+    margin-bottom: 15px;
+}
 
-
-.button {
-    margin-right: 60px;
+ p{
+    font-size: 2.5 rem;
     margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 3rem;
-}
 
-p {
-    font-size: 1.5rem;
-}
